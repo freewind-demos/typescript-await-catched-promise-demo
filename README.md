@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Await Caught Promise Demo
 ===========================
+
+需要在 promise.catch() 里再throw一次，await外面的catch才能捕获
 
 ```
 npm install
-npm run demo
+npm start
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
